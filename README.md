@@ -1,5 +1,9 @@
 # SPORTRADAR TEST CASE
 
+## Reqirements
+
+- Node: v18.15.0
+
 ## Libraries
 
 My used Libraries Are: 
