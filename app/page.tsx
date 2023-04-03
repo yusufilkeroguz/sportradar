@@ -20,7 +20,7 @@ export default function Home() {
         <div className="flex justify-between">
           <h2 className="text-5xl font-bold">Match</h2>
 
-          <Button label={showAddMatchForm ? "Hide Match" : "Show Match"} onClick={onAddMatchButtonClick} />
+          <Button label={showAddMatchForm ? "Close Form" : "Add Match Form"} onClick={onAddMatchButtonClick} />
         </div>
 
         <div className={`${showAddMatchForm ? "block" : "hidden"}`}>

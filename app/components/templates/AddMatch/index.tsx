@@ -38,7 +38,7 @@ export default function AddMatch() {
 
       <h3 className="text-2xl font-bold">Away</h3>
 
-      <div className="flex flex-col">
+      <div className="flex flex-col mb-4">
         <input
           type="text"
           className="form-input"
