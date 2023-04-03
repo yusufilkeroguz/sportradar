@@ -9,8 +9,10 @@ export interface IStoreMatch {
   },
 }
 
+export interface IStoreMatches extends Array<IStoreMatch> {}
+
 export interface IStoreMatchesState {
-  matches: Array<IStoreMatch>;
+  matches: IStoreMatches
 }
 
 export interface IStoreMatchesEvents {
